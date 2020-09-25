@@ -25,7 +25,7 @@ The user will require git and python3.8 installed in their machine. To install t
 $ sudo apt install git-all
 
 #python3.8
-$ sudo apt-get install python3.6.
+$ sudo apt-get install python3.8.
 ```
 
 ## Known Bugs 
