@@ -1,0 +1,38 @@
+#header h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 80px;
+    color: #F3DFA2;
+  
+  }
+  
+  #header p {
+    font-family: 'Signika Negative',sans-serif;
+    text-align: center;
+    font-size: 20px;
+  
+  }
+  
+  #header h2{
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+    font-size: 30px
+  }
+  
+  .source-card {
+    border: solid #aed16c 2px;
+    height: 350px;
+    width: 250px;
+    padding: 15px;
+    margin: 4px;
+    font-size: 15px;
+    font-family: 'Signika Negative',
+      sans-serif;
+  
+  }
+  
+  #source-title {
+    color: #BB4430;
+    font-weight: bold;
+  
+  }
