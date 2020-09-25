@@ -1,26 +1,21 @@
-{% extends 'base.html'%}
+{% extends 'base.html' %}
 {% import 'macros.html' as macro%}
 
 {% block styles %}
-  {{super()}}
-  <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 {% endblock %}
 
-
-<!--content block-->
-
-{%block content%}
-<!--world news-->
-<h3>world news<h3>
+{% block content %}
+<div id="header">
+  <h1> NEWS FeeD </h1>
+  <p> Your trusted news-source</p>
+  <hr>
+  <h2>NEWS SELECTION</h2>
+</div>
 <ul>
-    {{macro.displayNewslist(world)}}
+  {{macro.displaySourceList(sources)}}
 </ul>
-
-<!--local news-->
-<h3>local news<h3>
-<ul>
-    {{macro.displayNewslist(local)}}
-</ul>
-
-
 {% endblock %}
