@@ -24,7 +24,7 @@ The user will require git and python3.6+ installed in their machine. To install 
 #git
 $ sudo apt install git-all
 
-#python3.6
+#python3.8
 $ sudo apt-get install python3.6.
 ```
 
