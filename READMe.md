@@ -1,4 +1,4 @@
-# News Feed
+# Watch news
 ### Author
 peter waithaka
 
@@ -19,7 +19,7 @@ An application uses NewsAPI to list news from various sources and provide links 
 
 
 ## Prerequisites
-The user will require git and python3.6+ installed in their machine. To install these two, you can use the following commands:
+The user will require git and python3.8 installed in their machine. To install these two, you can use the following commands:
 ```
 #git
 $ sudo apt install git-all
